@@ -3,8 +3,8 @@ package com.cme.clef
 import android.app.Application
 import androidx.test.platform.app.InstrumentationRegistry
 import com.cme.clef.di.testModule
-import com.cme.clef.data.di.daoModule
-import com.cme.clef.data.di.remoteApiModule
+import com.cme.clef.di.daoModule
+import com.cme.clef.di.remoteApiModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.GlobalContext.startKoin
 

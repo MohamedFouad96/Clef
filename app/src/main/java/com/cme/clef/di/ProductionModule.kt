@@ -1,4 +1,4 @@
-package com.cme.clef.data.di
+package com.cme.clef.di
 
 import android.content.Context
 import com.cme.clef.data.remote.util.calladapter.FlowCallAdapterFactory

@@ -1,4 +1,4 @@
-package com.cme.clef.data.di
+package com.cme.clef.di
 
 import com.cme.clef.data.remote.api.ClefApi
 import org.koin.dsl.module

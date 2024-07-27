@@ -1,5 +1,7 @@
 package com.cme.clef.data.cache.entity
 
+import com.cme.clef.data.domain.AlbumInfo
+import com.cme.clef.data.util.toEEEMMMddDateFormat
 import io.realm.RealmList
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey
@@ -18,5 +20,16 @@ open class MusicAlbumEntity: RealmObject()  {
     var albumLink = ""
     var isFavorite = false
     var genres: RealmList<String> = RealmList()
+
+}
+
+
+fun List<MusicAlbumEntity>.mapToDomain() = map {
+
+    it.run {
+        AlbumInfo(
+           id,name,artistName,releaseDate.toEEEMMMddDateFormat(),imageUrl,albumLink,isFavorite, genres.toList()
+        )
+    }
 
 }

@@ -82,7 +82,7 @@ class ClefApiTest: KoinTest {
     }
 
     @Test
-    fun getMoviesWithEmptyResponseThenReturnApiSuccessResponseWithNullValues() = runTest {
+    fun getAlbumsWithEmptyResponseThenReturnApiSuccessResponseWithNullValues() = runTest {
         mockServer.enqueueResponse(EMPTY_FILE, 200)
 
 
