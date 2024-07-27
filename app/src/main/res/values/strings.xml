@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Clef</string>
+    <string name="what_do_you_want">What do you want to listen?</string>
+    <string name="home">Home</string>
+    <string name="favorites">Favorites</string>
+    <string name="there_is_no_albums_yet">There is no Albums yet!</string>
+    <string name="find_your_favorite_album">Find your favorite album</string>
+    <string name="favorite_list">Favorite List</string>
+    <string name="detail">Detail</string>
+    <string name="copyright">Copyright © 2024 Apple Inc. All rights reserved.</string>
+
+</resources>

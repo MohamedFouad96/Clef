@@ -1,0 +1,17 @@
+[versions]
+kotlin = "1.9.22"
+composeBomVersion = "2024.06.00"
+realm = "1.11.0"
+crashlytics = "3.0.2"
+googleServices = "4.4.2"
+
+[libraries]
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBomVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version = "8.5.1" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+realm-database = { id = "io.realm.kotlin", version.ref = "realm" }
+crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "crashlytics" }
+google-services = { id = "com.google.gms.google-services", version.ref = "googleServices" }
+

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "510883216152",
+    "project_id": "clef-97a99",
+    "storage_bucket": "clef-97a99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510883216152:android:6fa2557e54cd7258273c6d",
+        "android_client_info": {
+          "package_name": "com.cme.clef"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs3IagcZ6iK0Oc0nZHJrEaiO-Z9eXcOOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
