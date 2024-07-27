@@ -1,0 +1,20 @@
+{
+  "feed": {
+    "title": "Top Albums",
+    "id": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/1/albums.json",
+    "author": {
+      "name": "Apple",
+      "url": "https://www.apple.com/"
+    },
+    "links": [
+      {
+        "self": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/1/albums.json"
+      }
+    ],
+    "copyright": "Copyright © 2024 Apple Inc. All rights reserved.",
+    "country": "us",
+    "icon": "https://www.apple.com/favicon.ico",
+    "updated": "Sat, 27 Jul 2024 16:39:06 +0000",
+    "results": []
+  }
+}

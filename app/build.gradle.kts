@@ -6,7 +6,7 @@ plugins {
     id ("com.google.gms.google-services")
     id ("com.google.firebase.crashlytics")
     id ("de.mannodermaus.android-junit5")  version("1.8.2.1")
-    id("io.realm.kotlin")
+    id ("realm-android")
 }
 
 android {
@@ -20,7 +20,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "com.cme.clef.InstrumentationTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }

@@ -1,0 +1,262 @@
+{
+  "feed": {
+    "title": "Top Albums",
+    "id": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/albums.json",
+    "author": {
+      "name": "Apple",
+      "url": "https://www.apple.com/"
+    },
+    "links": [
+      {
+        "self": "https://rss.applemarketingtools.com/api/v2/us/music/most-played/10/albums.json"
+      }
+    ],
+    "copyright": "Copyright © 2024 Apple Inc. All rights reserved.",
+    "country": "us",
+    "icon": "https://www.apple.com/favicon.ico",
+    "updated": "Sat, 27 Jul 2024 16:38:54 +0000",
+    "results": [
+      {
+        "artistName": "Fuerza Regida",
+        "id": "1759045282",
+        "name": "PERO NO TE ENAMORES",
+        "releaseDate": "2024-07-25",
+        "kind": "albums",
+        "artistId": "1275690475",
+        "artistUrl": "https://music.apple.com/us/artist/fuerza-regida/1275690475",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/24/95/0f/24950f19-f5dd-696b-8295-df4f780a0d9a/196872326017.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "17",
+            "name": "Dance",
+            "url": "https://itunes.apple.com/us/genre/id17"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "12",
+            "name": "Latin",
+            "url": "https://itunes.apple.com/us/genre/id12"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/pero-no-te-enamores/1759045282"
+      },
+      {
+        "artistName": "Eminem",
+        "id": "1755022177",
+        "name": "The Death of Slim Shady (Coup De Grâce)",
+        "releaseDate": "2024-07-12",
+        "kind": "albums",
+        "artistId": "111051",
+        "artistUrl": "https://music.apple.com/us/artist/eminem/111051",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8b/2c/ce/8b2cced1-ef53-ae9f-df26-5c5d8ad0009e/24UMGIM70968.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/the-death-of-slim-shady-coup-de-gr%C3%A2ce/1755022177"
+      },
+      {
+        "artistName": "Mustard",
+        "id": "1756754566",
+        "name": "Faith of a Mustard Seed",
+        "releaseDate": "2024-07-26",
+        "kind": "albums",
+        "artistId": "304270345",
+        "artistUrl": "https://music.apple.com/us/artist/mustard/304270345",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/71/c6/3171c65d-f782-ce3d-1f85-d33af850f836/4099964112528.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/faith-of-a-mustard-seed/1756754566"
+      },
+      {
+        "artistName": "Zach Bryan",
+        "id": "1754472969",
+        "name": "The Great American Bar Scene",
+        "releaseDate": "2024-07-04",
+        "kind": "albums",
+        "artistId": "1436413980",
+        "artistUrl": "https://music.apple.com/us/artist/zach-bryan/1436413980",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/14/d4/2e14d494-34c3-d6ee-2189-9710afff7906/093624839996.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/the-great-american-bar-scene/1754472969"
+      },
+      {
+        "artistName": "Ice Spice",
+        "id": "1750336533",
+        "name": "Y2K!",
+        "releaseDate": "2024-07-26",
+        "kind": "albums",
+        "artistId": "1552372505",
+        "artistUrl": "https://music.apple.com/us/artist/ice-spice/1552372505",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c3/d3/d0/c3d3d044-9bc4-ddfd-0280-756fb88d561a/24UMGIM10496.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "18",
+            "name": "Hip-Hop/Rap",
+            "url": "https://itunes.apple.com/us/genre/id18"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/y2k/1750336533"
+      },
+      {
+        "artistName": "Billie Eilish",
+        "id": "1739659134",
+        "name": "HIT ME HARD AND SOFT",
+        "releaseDate": "2024-05-17",
+        "kind": "albums",
+        "artistId": "1065981054",
+        "artistUrl": "https://music.apple.com/us/artist/billie-eilish/1065981054",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/92/9f/69/929f69f1-9977-3a44-d674-11f70c852d1b/24UMGIM36186.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "20",
+            "name": "Alternative",
+            "url": "https://itunes.apple.com/us/genre/id20"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/hit-me-hard-and-soft/1739659134"
+      },
+      {
+        "artistName": "Post Malone",
+        "id": "1752531522",
+        "name": "F-1 Trillion",
+        "releaseDate": "2024-08-16",
+        "kind": "albums",
+        "artistId": "966309175",
+        "artistUrl": "https://music.apple.com/us/artist/post-malone/966309175",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/95/ad/c8/95adc8ca-e583-1800-9b56-4665f186e899/24UMGIM60824.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/f-1-trillion/1752531522"
+      },
+      {
+        "artistName": "Various Artists",
+        "id": "1746560124",
+        "name": "Twisters: The Album",
+        "releaseDate": "2024-07-19",
+        "kind": "albums",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/d1/a0/62/d1a062f2-df00-7975-ec2c-d5eacbc0741c/075679646439.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "6",
+            "name": "Country",
+            "url": "https://itunes.apple.com/us/genre/id6"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/twisters-the-album/1746560124"
+      },
+      {
+        "artistName": "Ivan Cornejo",
+        "id": "1754234421",
+        "name": "MIRADA (Apple Music Edition)",
+        "releaseDate": "2024-07-19",
+        "kind": "albums",
+        "artistId": "1531646916",
+        "artistUrl": "https://music.apple.com/us/artist/ivan-cornejo/1531646916",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/93/2d/2f/932d2fab-0679-a185-e8aa-20eba7bb76ff/198704042225_Cover.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          },
+          {
+            "genreId": "12",
+            "name": "Latin",
+            "url": "https://itunes.apple.com/us/genre/id12"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/mirada-apple-music-edition/1754234421"
+      },
+      {
+        "artistName": "Taylor Swift",
+        "id": "1742057774",
+        "name": "THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY",
+        "releaseDate": "2024-04-19",
+        "kind": "albums",
+        "artistId": "159260351",
+        "artistUrl": "https://music.apple.com/us/artist/taylor-swift/159260351",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/a4/86/59/a486593a-53c9-1c2a-5122-8f25339f7359/24UMGIM44778.rgb.jpg/100x100bb.jpg",
+        "genres": [
+          {
+            "genreId": "14",
+            "name": "Pop",
+            "url": "https://itunes.apple.com/us/genre/id14"
+          },
+          {
+            "genreId": "34",
+            "name": "Music",
+            "url": "https://itunes.apple.com/us/genre/id34"
+          }
+        ],
+        "url": "https://music.apple.com/us/album/the-tortured-poets-department-the-anthology/1742057774"
+      }
+    ]
+  }
+}

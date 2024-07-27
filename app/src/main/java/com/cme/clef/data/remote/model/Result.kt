@@ -1,7 +1,10 @@
 package com.cme.clef.data.remote.model
 
 
+import com.cme.clef.data.cache.entity.MusicAlbumEntity
+import com.cme.clef.data.remote.model.Result
 import com.google.gson.annotations.SerializedName
+import io.realm.RealmList
 
 data class Result(
     @SerializedName("artistId")
@@ -27,3 +30,16 @@ data class Result(
     @SerializedName("url")
     val url: String
 )
+
+
+fun List<Result>.mapToEntity() = map { album -> MusicAlbumEntity().apply {
+   val albumGenres =  RealmList<String>()
+    albumGenres.addAll(album.genres.map { it.name }.toList())
+    id = album.id
+    name = album.name
+    artistName = album.artistName
+    releaseDate = album.releaseDate
+    imageUrl = album.artworkUrl100
+    albumLink = album.url
+    genres = albumGenres
+} }
