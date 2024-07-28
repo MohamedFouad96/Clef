@@ -4,7 +4,7 @@ Clef is a simple application that presents information about various music album
 <br></br>
 The app has a few screens:
 
-| <img src="screenshots/screenshot_1.png"> | <img src="screenshots/screenshot_2.png"> | <img src="screenshots/screenshot_3.png"> |
+| <img src="screenshots/Screenshot_1.png"> | <img src="screenshots/Screenshot_2.png"> | <img src="screenshots/Screenshot_3.png"> |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 |  Home - displays list of albums          | Album Detail - display album information | Favourites screen  |
 
