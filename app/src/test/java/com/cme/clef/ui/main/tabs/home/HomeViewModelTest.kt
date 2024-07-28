@@ -5,6 +5,7 @@ import com.cme.clef.di.fake.FakeHomeRepository
 import com.cme.clef.repo.IHomeRepository
 import com.cme.clef.util.MainCoroutineRule
 import com.cme.clef.util.runTest
+import kotlinx.coroutines.Dispatchers
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Rule
@@ -37,7 +38,7 @@ class HomeViewModelTest {
 
 
 
-        viewModel.fetchMusicAlbums()
+        viewModel.fetchMusicAlbums(Dispatchers.IO)
 
 
         Thread.sleep(50)
@@ -67,7 +68,7 @@ class HomeViewModelTest {
 
         (repo as FakeHomeRepository).setIsWithError(true)
 
-        viewModel.fetchMusicAlbums()
+        viewModel.fetchMusicAlbums(Dispatchers.IO)
 
 
         Thread.sleep(50)

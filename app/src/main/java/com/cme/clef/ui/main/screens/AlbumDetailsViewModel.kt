@@ -14,10 +14,14 @@ import kotlinx.coroutines.launch
 
 class AlbumDetailsViewModel(private val repo: IHomeRepository): BaseViewModel() {
 
+    private val _isFavorite = mutableStateOf<Boolean?>(null)
+    val isFavorite: State<Boolean?> = _isFavorite
+
 
     fun changeAlbumFavorite(albumId: String, isFavorite: Boolean) {
         viewModelScope.launch(Dispatchers.IO) {
             repo.setFavoriteAlbum(albumId, isFavorite)
+            _isFavorite.value = isFavorite
         }
     }
 

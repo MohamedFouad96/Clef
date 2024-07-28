@@ -8,6 +8,7 @@ import com.cme.clef.repo.IHomeRepository
 import com.cme.clef.ui.main.tabs.home.HomeViewModel
 import com.cme.clef.util.MainCoroutineRule
 import com.cme.clef.util.runTest
+import kotlinx.coroutines.Dispatchers
 import org.hamcrest.MatcherAssert
 import org.hamcrest.Matchers
 import org.junit.Rule
@@ -40,7 +41,7 @@ class FavoritesViewModelTest {
 
 
 
-        viewModel.fetchFavoriteMusicAlbums()
+        viewModel.fetchFavoriteMusicAlbums(Dispatchers.IO)
 
 
         Thread.sleep(50)
@@ -70,7 +71,7 @@ class FavoritesViewModelTest {
 
         (repo as FakeFavoritesRepository).setIsWithError(true)
 
-        viewModel.fetchFavoriteMusicAlbums()
+        viewModel.fetchFavoriteMusicAlbums(Dispatchers.IO)
 
 
         Thread.sleep(50)

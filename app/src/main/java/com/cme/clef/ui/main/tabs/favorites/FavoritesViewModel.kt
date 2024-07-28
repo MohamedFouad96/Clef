@@ -7,6 +7,7 @@ import com.cme.clef.data.domain.AlbumInfo
 import com.cme.clef.data.util.Resource
 import com.cme.clef.repo.IFavoritesRepository
 import com.cme.clef.ui.common.BaseViewModel
+import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
@@ -21,9 +22,8 @@ class FavoritesViewModel(private val repo: IFavoritesRepository): BaseViewModel(
     val errorState: State<String?> = _errorState
 
 
-    fun fetchFavoriteMusicAlbums() {
-
-        viewModelScope.launch(Dispatchers.IO) {
+    fun fetchFavoriteMusicAlbums(coroutineDispatcher: CoroutineDispatcher = Dispatchers.Main) {
+        viewModelScope.launch(coroutineDispatcher) {
 
             repo.getFavoriteMusicAlbums().collectLatest {
                 showLoading.value = (it.status == Resource.Status.LOADING)
@@ -31,7 +31,7 @@ class FavoritesViewModel(private val repo: IFavoritesRepository): BaseViewModel(
                 when (it.status) {
                     Resource.Status.SUCCESS -> {
                         it.data?.let { albums ->
-                                _musicAlbums.value = albums
+                            _musicAlbums.value = albums
                         }
                     }
                     Resource.Status.ERROR -> {

@@ -27,6 +27,8 @@ fun createDatabase(context: Context): Realm {
 
     val config = RealmConfiguration.Builder()
         .name(DATABASE_NAME)
+        .allowWritesOnUiThread(true)
+        .allowQueriesOnUiThread(true)
         .schemaVersion(1)
         .build()
 

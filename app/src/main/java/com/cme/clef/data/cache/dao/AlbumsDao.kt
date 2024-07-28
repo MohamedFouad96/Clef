@@ -19,7 +19,7 @@ class AlbumsDao(): IAlbumsDao {
 
 
 
-    override  fun insertMusicAlbums(albums: List<MusicAlbumEntity>) {
+    override fun insertMusicAlbums(albums: List<MusicAlbumEntity>) {
 
             getDefaultRealmInstance { realm ->
                 realm.executeTransaction { transaction ->
@@ -37,7 +37,7 @@ class AlbumsDao(): IAlbumsDao {
 
 
     override fun getFavoriteAlbums(): List<MusicAlbumEntity> = getDefaultRealmInstance { realm ->
-        realm.where(MusicAlbumEntity::class.java).equalTo("isFavorite", true).findAll()
+        realm.where(MusicAlbumEntity::class.java).equalTo("isFavorite", true).findAll().toList()
     }
 
 

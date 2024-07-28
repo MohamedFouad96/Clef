@@ -7,6 +7,7 @@ import com.cme.clef.data.domain.AlbumInfo
 import com.cme.clef.data.util.Resource
 import com.cme.clef.repo.IHomeRepository
 import com.cme.clef.ui.common.BaseViewModel
+import kotlinx.coroutines.CoroutineDispatcher
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.collectLatest
@@ -22,12 +23,12 @@ class HomeViewModel(private val repo: IHomeRepository): BaseViewModel() {
     val errorState: State<String?> = _errorState
 
 
-    fun fetchMusicAlbums() {
+    fun fetchMusicAlbums(coroutineDispatcher: CoroutineDispatcher = Dispatchers.Main) {
 
-        viewModelScope.launch(Dispatchers.IO) {
+        viewModelScope.launch(coroutineDispatcher) {
 
             repo.getMusicAlbums().collectLatest {
-                showLoading.value = (it.status == Resource.Status.LOADING)
+                showLoading.value = (it.status == Resource.Status.LOADING && _musicAlbums.value.isNullOrEmpty())
 
                 when (it.status) {
                     Resource.Status.SUCCESS, Resource.Status.LOADING -> {

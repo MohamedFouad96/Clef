@@ -9,5 +9,8 @@
     <string name="favorite_list">Favorite List</string>
     <string name="detail">Detail</string>
     <string name="copyright">Copyright © 2024 Apple Inc. All rights reserved.</string>
+    <string name="we_are_sorry">we are sorry, we can\nnot find the Music Albums :(</string>
+    <string name="sorry_there_appears_to_be_a_system_problem">Sorry, there appears to be a system\nproblem, please try again later</string>
+    <string name="retry">Retry</string>
 
 </resources>
